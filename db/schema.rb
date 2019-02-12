@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2019_02_12_232143) do
 
   create_table "todos", force: :cascade do |t|
     t.string "title"
-    t.string "created_by"
+    t.string "owner"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
