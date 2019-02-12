@@ -25,7 +25,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_bot'
   gem 'faker'
-  gem "shoulda-matchers", require: false, github: "thoughtbot/shoulda-matchers"
+  gem 'shoulda-matchers', '4.0.0.rc1'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
